@@ -1,0 +1,553 @@
+[
+    {
+        "label": "database",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "database",
+        "description": "database",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_copy_mode",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_copy_mode",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionManager",
+        "importPath": "permissions",
+        "description": "permissions",
+        "isExtraImport": true,
+        "detail": "permissions",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionManager",
+        "importPath": "permissions",
+        "description": "permissions",
+        "isExtraImport": true,
+        "detail": "permissions",
+        "documentation": {}
+    },
+    {
+        "label": "handle_user_commands",
+        "importPath": "handlers_user",
+        "description": "handlers_user",
+        "isExtraImport": true,
+        "detail": "handlers_user",
+        "documentation": {}
+    },
+    {
+        "label": "handle_group_commands",
+        "importPath": "handlers_group",
+        "description": "handlers_group",
+        "isExtraImport": true,
+        "detail": "handlers_group",
+        "documentation": {}
+    },
+    {
+        "label": "handle_city_commands",
+        "importPath": "handlers_city",
+        "description": "handlers_city",
+        "isExtraImport": true,
+        "detail": "handlers_city",
+        "documentation": {}
+    },
+    {
+        "label": "handle_id_commands",
+        "importPath": "handlers_id",
+        "description": "handlers_id",
+        "isExtraImport": true,
+        "detail": "handlers_id",
+        "documentation": {}
+    },
+    {
+        "label": "handle_trigger_commands",
+        "importPath": "handlers_trigger",
+        "description": "handlers_trigger",
+        "isExtraImport": true,
+        "detail": "handlers_trigger",
+        "documentation": {}
+    },
+    {
+        "label": "handle_forward_commands",
+        "importPath": "handlers_forward",
+        "description": "handlers_forward",
+        "isExtraImport": true,
+        "detail": "handlers_forward",
+        "documentation": {}
+    },
+    {
+        "label": "handle_module_commands",
+        "importPath": "handlers_module",
+        "description": "handlers_module",
+        "isExtraImport": true,
+        "detail": "handlers_module",
+        "documentation": {}
+    },
+    {
+        "label": "role_id_from_string",
+        "importPath": "regex",
+        "description": "regex",
+        "isExtraImport": true,
+        "detail": "regex",
+        "documentation": {}
+    },
+    {
+        "label": "shlex",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shlex",
+        "description": "shlex",
+        "detail": "shlex",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "pyrogram",
+        "description": "pyrogram",
+        "isExtraImport": true,
+        "detail": "pyrogram",
+        "documentation": {}
+    },
+    {
+        "label": "filters",
+        "importPath": "pyrogram",
+        "description": "pyrogram",
+        "isExtraImport": true,
+        "detail": "pyrogram",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "pyrogram",
+        "description": "pyrogram",
+        "isExtraImport": true,
+        "detail": "pyrogram",
+        "documentation": {}
+    },
+    {
+        "label": "filters",
+        "importPath": "pyrogram",
+        "description": "pyrogram",
+        "isExtraImport": true,
+        "detail": "pyrogram",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "pyrogram",
+        "description": "pyrogram",
+        "isExtraImport": true,
+        "detail": "pyrogram",
+        "documentation": {}
+    },
+    {
+        "label": "filters",
+        "importPath": "pyrogram",
+        "description": "pyrogram",
+        "isExtraImport": true,
+        "detail": "pyrogram",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "commands",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "commands",
+        "description": "commands",
+        "detail": "commands",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "forward_message",
+        "importPath": "copy_message",
+        "description": "copy_message",
+        "isExtraImport": true,
+        "detail": "copy_message",
+        "documentation": {}
+    },
+    {
+        "label": "collect_data",
+        "importPath": "data_collector",
+        "description": "data_collector",
+        "isExtraImport": true,
+        "detail": "data_collector",
+        "documentation": {}
+    },
+    {
+        "label": "print_user_info",
+        "importPath": "data_collector",
+        "description": "data_collector",
+        "isExtraImport": true,
+        "detail": "data_collector",
+        "documentation": {}
+    },
+    {
+        "label": "print_chat_info",
+        "importPath": "data_collector",
+        "description": "data_collector",
+        "isExtraImport": true,
+        "detail": "data_collector",
+        "documentation": {}
+    },
+    {
+        "label": "load_db",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def load_db():\n    global db_data\n    try:\n        with open(db_file, 'r', encoding='utf-8') as f:  # Указываем кодировку UTF-8 здесь\n            db_data = json.load(f)\n    except FileNotFoundError:\n        print(f\"Файл {db_file} не найден.\")\n        db_data = {}\n    except json.JSONDecodeError as e:\n        print(f\"Ошибка при декодировании файла {db_file}: {e}\")",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "save_db",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def save_db():\n    try:\n        with open(db_file, 'w', encoding='utf-8') as f:  # Указываем кодировку UTF-8 здесь\n            json.dump(db_data, f, ensure_ascii=False, indent=4)  # ensure_ascii=False позволяет сохранять не ASCII символы в их истинном виде\n    except Exception as e:\n        print(f\"Ошибка при сохранении файла {db_file}: {e}\")\ndef toggle_copy_mode1(mode):\n    db_data['FORWARD_GROUPS']['fwAll_enabled'] = mode\n    #print(f\"Saving database to file: {db_file}\")\n    #print(f\"Database contents: {db_data}\")",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "toggle_copy_mode1",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def toggle_copy_mode1(mode):\n    db_data['FORWARD_GROUPS']['fwAll_enabled'] = mode\n    #print(f\"Saving database to file: {db_file}\")\n    #print(f\"Database contents: {db_data}\")\n    save_db()  # Сохраняем обновленное состояние в файл\n    return \"Copy mode is on\" if mode else \"Copy mode is off\"\ndef toggle_copy_mode(mode):\n    #current_mode = db_data['FORWARD_GROUPS']['fwAll_enabled']\n    current_mode = db_data['GLOBAL_SETTINGS']['forwarding_rules']['fwAll_enabled']\n    print(\"000 Copy mode from DB:\", current_mode)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "toggle_copy_mode",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def toggle_copy_mode(mode):\n    #current_mode = db_data['FORWARD_GROUPS']['fwAll_enabled']\n    current_mode = db_data['GLOBAL_SETTINGS']['forwarding_rules']['fwAll_enabled']\n    print(\"000 Copy mode from DB:\", current_mode)\n    print(\"111 Copy mode from DB:\", mode)\n    if current_mode == mode:  # Если требуемое состояние уже установлено, выходим из функции без записи в БД\n        print(\"222-1 current_mode == mode:\", current_mode == mode)\n        return f\"Copy mode is already {'on' if mode else 'off'}\"\n    print(\"333 current_mode != mode:\", current_mode != mode)\n    print(\"444 mode:\", mode)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_copy_mode",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def get_copy_mode():\n    #return db_data['FORWARD_GROUPS']['fwAll_enabled']\n    #mode = db_data['FORWARD_GROUPS']['fwAll_enabled']\n    #mode = db_data['GLOBAL_SETTINGS']['forwarding_rules']['fwAll_enabled']\n    #return db_data['GLOBAL_SETTINGS']['forwarding_rules']['fwAll_enabled']\n    mode = db_data['GLOBAL_SETTINGS']['forwarding_rules']['fwAll_enabled']\n    print(\"123 Copy mode from DB:\", mode)\n    return mode\n# функции для управления пользователями и их активностью\n#def add_user(user_id, name, city):",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "permission_manager.add_user",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def permission_manager.add_user(tg_id, name, city, location, trigger_words, notification_enabled=False, active=True):\n    user_id = str(user_id)\n    db_data.setdefault('users', {})[user_id] = {\n        \"name\": name,\n        \"city\": city,\n        \"active\": True,\n        \"registered\": False\n    }\n    save_db()\ndef set_user_active(user_id, active):",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "set_user_active",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def set_user_active(user_id, active):\n    user_id = str(user_id)\n    if user_id in db_data.get('users', {}):\n        db_data['users'][user_id]['active'] = active\n        save_db()\ndef register_user(user_id):\n    user_id = str(user_id)\n    if user_id in db_data.get('users', {}):\n        db_data['users'][user_id]['registered'] = True\n        save_db()",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def register_user(user_id):\n    user_id = str(user_id)\n    if user_id in db_data.get('users', {}):\n        db_data['users'][user_id]['registered'] = True\n        save_db()\ndef check_user_registration(user_id):\n    user_id = str(user_id)\n    return db_data.get('users', {}).get(user_id, {}).get('registered', False)\ndef get_user_data(user_id):\n    user_id = str(user_id)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "check_user_registration",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def check_user_registration(user_id):\n    user_id = str(user_id)\n    return db_data.get('users', {}).get(user_id, {}).get('registered', False)\ndef get_user_data(user_id):\n    user_id = str(user_id)\n    return db_data.get('users', {}).get(user_id, {})\n# Records the activity of a user in a log file.\ndef record_user_activity(user_id, data_changed):\n    user_id = str(user_id)\n    timestamp = datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\")",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_data",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def get_user_data(user_id):\n    user_id = str(user_id)\n    return db_data.get('users', {}).get(user_id, {})\n# Records the activity of a user in a log file.\ndef record_user_activity(user_id, data_changed):\n    user_id = str(user_id)\n    timestamp = datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\")\n    with open(f\"uid/{user_id}\", 'a', encoding='utf-8') as user_file:  # Указываем кодировку UTF-8 здесь\n        user_file.write(f\"{timestamp}: {data_changed}\\n\")\ndef get_db():",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "record_user_activity",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def record_user_activity(user_id, data_changed):\n    user_id = str(user_id)\n    timestamp = datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\")\n    with open(f\"uid/{user_id}\", 'a', encoding='utf-8') as user_file:  # Указываем кодировку UTF-8 здесь\n        user_file.write(f\"{timestamp}: {data_changed}\\n\")\ndef get_db():\n    return db_data\ndef update_db(key, value):\n    db_data[key] = value",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def get_db():\n    return db_data\ndef update_db(key, value):\n    db_data[key] = value",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "update_db",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def update_db(key, value):\n    db_data[key] = value",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "db_file",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "db_file = 'db.json'\ndb_data = {}\ndef load_db():\n    global db_data\n    try:\n        with open(db_file, 'r', encoding='utf-8') as f:  # Указываем кодировку UTF-8 здесь\n            db_data = json.load(f)\n    except FileNotFoundError:\n        print(f\"Файл {db_file} не найден.\")\n        db_data = {}",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "db_data",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "db_data = {}\ndef load_db():\n    global db_data\n    try:\n        with open(db_file, 'r', encoding='utf-8') as f:  # Указываем кодировку UTF-8 здесь\n            db_data = json.load(f)\n    except FileNotFoundError:\n        print(f\"Файл {db_file} не найден.\")\n        db_data = {}\n    except json.JSONDecodeError as e:",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "update_data",
+        "kind": 2,
+        "importPath": "data_collector",
+        "description": "data_collector",
+        "peekOfCode": "def update_data(existing_message, new_data):\n    # Добавляем новые данные к существующему сообщению\n    updated_message_text = existing_message.text + \"\\n\" + new_data\n    return updated_message_text\n    # Возможно, другие вспомогательные функции\nasync def print_user_info(client, user_id):\n    user_info = await client.get_users(user_id)\n    print(\"\\nИнформация о пользователе:\\n\")\n    for attribute in dir(user_info):\n        value = getattr(user_info, attribute)",
+        "detail": "data_collector",
+        "documentation": {}
+    },
+    {
+        "label": "manage_db",
+        "kind": 2,
+        "importPath": "handlers_db",
+        "description": "handlers_db",
+        "peekOfCode": "def manage_db(bot, update, db_session, user_groups, permissions):\n    \"\"\"\n    Manage sections and parameters of the database based on the specified user groups in the DB.\n    Args:\n        bot (telegram.Bot): The bot instance.\n        update (telegram.Update): The update instance.\n        db_session (Session): The DB session.\n        user_groups (dict): The dictionary of user groups.\n        permissions (dict): The dictionary of permissions.\n    \"\"\"",
+        "detail": "handlers_db",
+        "documentation": {}
+    },
+    {
+        "label": "json_to_db",
+        "kind": 2,
+        "importPath": "json-sql",
+        "description": "json-sql",
+        "peekOfCode": "def json_to_db():\n    print(\"Loading databases...\")\n    # Открываем файл JSON и загружаем данные\n    with open('db.json', 'r') as f:\n        data = json.load(f)\n    print(\"Loaded JSON data.\")\n    # Создаем подключение к базе данных SQLite\n    conn = sqlite3.connect('my.db')\n    print(\"Connected to SQLite database.\")\n    # Создаем курсор для выполнения SQL-запросов",
+        "detail": "json-sql",
+        "documentation": {}
+    },
+    {
+        "label": "view_db",
+        "kind": 2,
+        "importPath": "json-sql",
+        "description": "json-sql",
+        "peekOfCode": "def view_db():\n    conn = sqlite3.connect('my_database.db')\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT name FROM sqlite_master WHERE type='table';\")\n    tables = cursor.fetchall()\n    for table in tables:\n        print(f\"Table {table[0]}:\")\n        cursor.execute(f\"SELECT * FROM {table[0]};\")\n        rows = cursor.fetchall()\n        for row in rows:",
+        "detail": "json-sql",
+        "documentation": {}
+    },
+    {
+        "label": "permission_manager",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "permission_manager = PermissionManager()\nlogging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)\n# Загрузка переменных окружения из файла .env\nload_dotenv()\nAPI_ID = os.getenv('API_ID')\nAPI_HASH = os.getenv('API_HASH')\nBOT_TOKEN = os.getenv('BOT_TOKEN')\ndatabase.load_db()  # Загрузка БД при запуске\n# Загружаем данные из базы данных\ndb = database.get_db()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "API_ID",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "API_ID = os.getenv('API_ID')\nAPI_HASH = os.getenv('API_HASH')\nBOT_TOKEN = os.getenv('BOT_TOKEN')\ndatabase.load_db()  # Загрузка БД при запуске\n# Загружаем данные из базы данных\ndb = database.get_db()\n# вывести в лог считанную db\n#print (f\"БД db.json : {db}\")\n# Получаем список администраторов на основании их role_id\nadmins = [user[\"tg_id\"] for user in db[\"USERS\"].values() if user[\"role_id\"] == 2]",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "API_HASH",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "API_HASH = os.getenv('API_HASH')\nBOT_TOKEN = os.getenv('BOT_TOKEN')\ndatabase.load_db()  # Загрузка БД при запуске\n# Загружаем данные из базы данных\ndb = database.get_db()\n# вывести в лог считанную db\n#print (f\"БД db.json : {db}\")\n# Получаем список администраторов на основании их role_id\nadmins = [user[\"tg_id\"] for user in db[\"USERS\"].values() if user[\"role_id\"] == 2]\n# Получаем необходимые значения из базы данных",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "BOT_TOKEN",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "BOT_TOKEN = os.getenv('BOT_TOKEN')\ndatabase.load_db()  # Загрузка БД при запуске\n# Загружаем данные из базы данных\ndb = database.get_db()\n# вывести в лог считанную db\n#print (f\"БД db.json : {db}\")\n# Получаем список администраторов на основании их role_id\nadmins = [user[\"tg_id\"] for user in db[\"USERS\"].values() if user[\"role_id\"] == 2]\n# Получаем необходимые значения из базы данных\n# SOURCE_GROUP_ID = db['FORWARD_GROUPS']['source_group_ids']",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "db = database.get_db()\n# вывести в лог считанную db\n#print (f\"БД db.json : {db}\")\n# Получаем список администраторов на основании их role_id\nadmins = [user[\"tg_id\"] for user in db[\"USERS\"].values() if user[\"role_id\"] == 2]\n# Получаем необходимые значения из базы данных\n# SOURCE_GROUP_ID = db['FORWARD_GROUPS']['source_group_ids']\nSOURCE_GROUP_ID = db['GLOBAL_SETTINGS']['forwarding_rules']['source_group_indices']\n#TARGET_GROUP_ID = db['FORWARD_GROUPS']['target_group_id']\nTARGET_GROUP_ID = db['GLOBAL_SETTINGS']['forwarding_rules']['target_group_id']",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "admins",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "admins = [user[\"tg_id\"] for user in db[\"USERS\"].values() if user[\"role_id\"] == 2]\n# Получаем необходимые значения из базы данных\n# SOURCE_GROUP_ID = db['FORWARD_GROUPS']['source_group_ids']\nSOURCE_GROUP_ID = db['GLOBAL_SETTINGS']['forwarding_rules']['source_group_indices']\n#TARGET_GROUP_ID = db['FORWARD_GROUPS']['target_group_id']\nTARGET_GROUP_ID = db['GLOBAL_SETTINGS']['forwarding_rules']['target_group_id']\nbot = Client(\"user_bot\", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)\n#@bot.on_message(filters.command(list(database.get_db()['COMMANDS'].keys()), prefixes=\".\") & filters.user(database.get_db()['ADMINS']))\n# Обработчик получаемых команд\n@bot.on_message(filters.command(list(database.get_db()['COMMANDS'].keys()), prefixes=\".\") & filters.user(admins))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "SOURCE_GROUP_ID",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "SOURCE_GROUP_ID = db['GLOBAL_SETTINGS']['forwarding_rules']['source_group_indices']\n#TARGET_GROUP_ID = db['FORWARD_GROUPS']['target_group_id']\nTARGET_GROUP_ID = db['GLOBAL_SETTINGS']['forwarding_rules']['target_group_id']\nbot = Client(\"user_bot\", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)\n#@bot.on_message(filters.command(list(database.get_db()['COMMANDS'].keys()), prefixes=\".\") & filters.user(database.get_db()['ADMINS']))\n# Обработчик получаемых команд\n@bot.on_message(filters.command(list(database.get_db()['COMMANDS'].keys()), prefixes=\".\") & filters.user(admins))\nasync def command_listener(client, message):\n    command = message.command[0]\n    print(f\"Received command: {command}\")  # Вывод полученной команды",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "#TARGET_GROUP_ID",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "#TARGET_GROUP_ID = db['FORWARD_GROUPS']['target_group_id']\nTARGET_GROUP_ID = db['GLOBAL_SETTINGS']['forwarding_rules']['target_group_id']\nbot = Client(\"user_bot\", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)\n#@bot.on_message(filters.command(list(database.get_db()['COMMANDS'].keys()), prefixes=\".\") & filters.user(database.get_db()['ADMINS']))\n# Обработчик получаемых команд\n@bot.on_message(filters.command(list(database.get_db()['COMMANDS'].keys()), prefixes=\".\") & filters.user(admins))\nasync def command_listener(client, message):\n    command = message.command[0]\n    print(f\"Received command: {command}\")  # Вывод полученной команды\n    args = message.command[1:]",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "TARGET_GROUP_ID",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "TARGET_GROUP_ID = db['GLOBAL_SETTINGS']['forwarding_rules']['target_group_id']\nbot = Client(\"user_bot\", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)\n#@bot.on_message(filters.command(list(database.get_db()['COMMANDS'].keys()), prefixes=\".\") & filters.user(database.get_db()['ADMINS']))\n# Обработчик получаемых команд\n@bot.on_message(filters.command(list(database.get_db()['COMMANDS'].keys()), prefixes=\".\") & filters.user(admins))\nasync def command_listener(client, message):\n    command = message.command[0]\n    print(f\"Received command: {command}\")  # Вывод полученной команды\n    args = message.command[1:]\n    # В вашем обработчике команд",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "bot = Client(\"user_bot\", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)\n#@bot.on_message(filters.command(list(database.get_db()['COMMANDS'].keys()), prefixes=\".\") & filters.user(database.get_db()['ADMINS']))\n# Обработчик получаемых команд\n@bot.on_message(filters.command(list(database.get_db()['COMMANDS'].keys()), prefixes=\".\") & filters.user(admins))\nasync def command_listener(client, message):\n    command = message.command[0]\n    print(f\"Received command: {command}\")  # Вывод полученной команды\n    args = message.command[1:]\n    # В вашем обработчике команд\n    response = await commands.handle_command(command, args, message)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionManager",
+        "kind": 6,
+        "importPath": "permissions",
+        "description": "permissions",
+        "peekOfCode": "class PermissionManager:\n    def __init__(self, db):\n        self.db = db\n    # Проверка роли пользователя\n    def check_user_role(self, user_id):\n        user_info = self.db[\"USERS\"].get(str(user_id), {})\n        user_role_id = user_info.get(\"role_id\", 5)  # По умолчанию присваиваем роль \"user\"\n        user_role = self.db[\"USER_GROUPS\"].get(str(user_role_id), {}).get(\"name\", \"user\")\n        return user_role\n    # Изменение данных пользователя",
+        "detail": "permissions",
+        "documentation": {}
+    },
+    {
+        "label": "role_id_from_string",
+        "kind": 2,
+        "importPath": "regex",
+        "description": "regex",
+        "peekOfCode": "def role_id_from_string(role_str):\n    if re.match(r'/adm(in)?', role_str, re.I):\n        return 2  # id for 'admin'\n    elif re.match(r'/m(gr|ngr|anager)?', role_str, re.I):\n        return 3  # id for 'manager'\n    else:\n        return 5  # id for 'user'",
+        "detail": "regex",
+        "documentation": {}
+    }
+]
