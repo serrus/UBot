@@ -1,0 +1,334 @@
+{
+    "COMMANDS": {
+        "start": "+Start the bot",
+        "help": "+Show help message",
+        "cst": "+Start copy all message",
+        "csp": "+Stop copy all message",
+        "cs": "Status copy all mmessage",
+        "dust": "Enable the Copy message",
+        "dusp": "Disable the Copy message",
+        "load": "Load databases",
+        "save": "Save databases",
+        "ad-adm": "Add an admin",
+        "rem-adm": "Remove an admin",
+        "ls-adm": "List admins",
+        "ad-grp": "Add a group",
+        "rem-grp": "Remove a group",
+        "ls-grp": "List groups",
+        "ad-usr": "Add users",
+        "rem-usr": "Remove users",
+        "ls-usr": "List users",
+        "ad-cty": "Add a city",
+        "rem-cty": "Remove a city",
+        "ls-cty": "List cities",
+        "ad-id": "Add an ID",
+        "rem-id": "Remove an ID",
+        "ls-id": "List IDs",
+        "ad-trg": "Add a trigger",
+        "rem-trg": "Remove a trigger",
+        "ls-trg": "List triggers",
+        "ad_frw": "Add a forward",
+        "rem-frw": "Remove a forward",
+        "ls-frw": "List forwards",
+        "ad_important": "Add an important user",
+        "rem_important": "Remove an important user",
+        "ls_important": "List important users",
+        "ad-mod": "Add a module",
+        "rem-mod": "Remove a module",
+        "ls-mod": "List modules"
+    },
+    "GLOBAL_SETTINGS": {
+        "forwarding_rules": {
+            "fwAll_enabled": true,
+            "group_ignore_index": "ignore",
+            "_comment": " // Индекс для целевой группы",
+            "group_all_index": "all",
+            "source_group_indices": [
+                "source"
+            ],
+            "target_group_index": "target",
+            "target_group_id": "trgt_id"
+        },
+        "trigger_settings": {
+            "enabled": true,
+            "default_target_group_index": "trgt_glob",
+            "_comment": " // Индекс для групп по умолчанию для триггеров",
+            "trigger_glob": {
+                "current_location": {
+                    "near_cities": {
+                        "enabled": true,
+                        "words": [
+                            "qwe1",
+                            "qwe2"
+                        ],
+                        "target_group_ids": []
+                    },
+                    "far_cities": {
+                        "enabled": false,
+                        "words": [
+                            "asd1",
+                            "asd2"
+                        ],
+                        "target_group_ids": []
+                    }
+                },
+                "destination": {
+                    "near_cities": {
+                        "enabled": true,
+                        "words": [
+                            "city5",
+                            "city6"
+                        ],
+                        "target_group_ids": []
+                    },
+                    "far_cities": {
+                        "enabled": false,
+                        "words": [
+                            "city7",
+                            "city8"
+                        ],
+                        "target_group_ids": []
+                    }
+                },
+                "potential_destinations": {
+                    "near_cities": {
+                        "enabled": true,
+                        "words": [
+                            "city9",
+                            "city10"
+                        ],
+                        "target_group_ids": [
+                            -123456789,
+                            -987654321
+                        ]
+                    },
+                    "far_cities": {
+                        "enabled": false,
+                        "words": [
+                            "city11",
+                            "city12"
+                        ],
+                        "target_group_ids": [
+                            -123456789,
+                            -987654321
+                        ]
+                    }
+                }
+            }
+        },
+        "allowed_roles": [
+            1,
+            2
+        ],
+        "_comment": " // Разрешенные ID конкретных пользователей",
+        "allowed_user_ids": [
+            6512210851,
+            123456789
+        ]
+    },
+    "COPY_ALL_MESSAGES": {
+        "enabled": false,
+        "source_group_index": "source",
+        "target_group_index": "all",
+        "_comment": " // Раздел настройки копирования всех сообщений"
+    },
+    "GROUPS_DICTIONARY": {
+        "ignore": {
+            "description": "Раздел групп для игнорирования",
+            "ignr_1": {
+                "tg_id": "-41840893530",
+                "name": "Ignore Group 1",
+                "enable": true,
+                "description": "Описание группы 1"
+            },
+            "ignr_2": {
+                "tg_id": "-41562334530111",
+                "name": "Ignore Group 2",
+                "enable": false,
+                "description": "Описание группы 2"
+            },
+            "_comment": "// ... другие игнорируемые группы"
+        },
+        "all": {
+            "tg_id": "-4184089353",
+            "name": "All Messages Group",
+            "description": "Группа для сбора всех сообщений"
+        },
+        "source": {
+            "description": "Раздел групп для исходных сообщений",
+            "src_1": {
+                "tg_id": "-4184089353",
+                "name": "Source Group 1",
+                "enable": true,
+                "description": "Группа источник для отслеживания сообщений по триггерам 1"
+            },
+            "src_2": {
+                "tg_id": "987654321",
+                "name": "Source Group 2",
+                "enable": true,
+                "description": "Группа источник для отслеживания сообщений по триггерам 2"
+            },
+            "src_3": {
+                "tg_id": "-123456789",
+                "name": "Source Group 3",
+                "enable": false,
+                "description": "Группа источник для отслеживания сообщений по триггерам 3"
+            },
+            "_comment": "// ... другие исходные группы"
+        },
+        "target": {
+            "description": "Раздел групп для целевых сообщений",
+            "trgt_id": {
+                "tg_id": "-4104313008",
+                "name": "Target Group ID info",
+                "enable": true,
+                "description": "Группа для сбора инфы по ID юзеров и групп"
+            },
+            "trgt_glob": {
+                "tg_id": "-1234567890",
+                "name": "Global Target Group id",
+                "enable": true,
+                "description": "Глобал ID для пересылки на основе триггерных слов"
+            },
+            "trgt_1": {
+                "tg_id": "-0987654321",
+                "name": "Target Group 2",
+                "enable": true,
+                "description": "Описание если надо 2"
+            },
+            "trgt_2": {
+                "tg_id": "-4104313008",
+                "name": "Target Group",
+                "enable": false,
+                "description": "Описание если надо 3"
+            }
+        },
+        "users": {
+            "description": "Раздел настройки пользовательских групп",
+            "usr_1": {
+                "uid": "user_id1",
+                "groups": {
+                    "ugr_1": {
+                        "tg_id": "-123456789",
+                        "name": "Default Target User Group 1",
+                        "enable": true,
+                        "description": "Описание если надо 1"
+                    },
+                    "ugr_2": {
+                        "tg_id": "-987654321",
+                        "name": "Default Target User Group 2",
+                        "enable": false,
+                        "description": "Описание если надо 2"
+                    }
+                }
+            },
+            "usr_2": {
+                "uid": "user_id2",
+                "groups": {
+                    "ugr_1": {
+                        "tg_id": "-123456789",
+                        "name": "Default Target User Group 1",
+                        "enable": true,
+                        "description": "Описание если надо 1"
+                    },
+                    "ugr_2": {
+                        "tg_id": "-987654321",
+                        "name": "Default Target User Group 2",
+                        "enable": false,
+                        "description": "Описание если надо 2"
+                    }
+                }
+            }
+        },
+        "_comment": "// ... другие категории групп"
+    },
+    "FORWARDING_PROFILES": {
+        "profile_id1": {
+            "user_id": "user_id1",
+            "global_target_group_index": "1",
+            "rules": {
+                "_comment": "// ... правила пересылки"
+            }
+        },
+        "_comment": "// ... другие профили"
+    },
+    "USERS": {
+        "<user_id1>": {
+            "tg_id": 7184318635,
+            "name": "<name>",
+            "city": "<city>",
+            "location": "<location>",
+            "trigger_words": [
+                "asd",
+                "qwe",
+                "111"
+            ],
+            "notification_enabled": true,
+            "active": true,
+            "role_id": 2
+        },
+        "<user_id2>": {
+            "tg_id": 987654321,
+            "name": "<name>",
+            "city": "<city>",
+            "location": "<location>",
+            "trigger_words": [
+                "<trigger_word_4>",
+                "<trigger_word_5>"
+            ],
+            "notification_enabled": false,
+            "active": true,
+            "role_id": 5
+        },
+        "<user_id3>": {
+            "_comment": "Пример пользователя без явно указанной роли",
+            "tg_id": 555555555,
+            "name": "<name>",
+            "city": "<city>",
+            "location": "<location>",
+            "trigger_words": [
+                "<trigger_word_6>",
+                "<trigger_word_7>"
+            ],
+            "notification_enabled": true,
+            "active": true,
+            "role_id": null
+        }
+    },
+    "USER_GROUPS": {
+        "1": {
+            "name": "owner",
+            "permissions": [
+                "manage_admins",
+                "manage_groups",
+                "manage_users"
+            ]
+        },
+        "2": {
+            "name": "admin",
+            "permissions": [
+                "manage_groups",
+                "manage_users"
+            ]
+        },
+        "3": {
+            "name": "manager",
+            "permissions": [
+                "manage_groups"
+            ]
+        },
+        "4": {
+            "name": "moderator",
+            "permissions": [
+                "manage_users"
+            ]
+        },
+        "5": {
+            "name": "user",
+            "permissions": []
+        }
+    },
+    "INTERACTION_LOGS": {
+        "_comment": "// ... логи взаимодействий"
+    }
+}

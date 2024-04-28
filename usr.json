@@ -1,0 +1,24 @@
+{
+	"users": [
+		{
+			"user_id": 123456789,
+			"name": "Олег",
+			"city": "Омск",
+			"active": false,
+			"registration_requested": false,
+			"registered": false,
+			"triggers": [],
+			"forwarding_rules": []
+		}
+		{
+			"user_id": 987654321,
+			"name": "Ирина",
+			"city": "Москва",
+			"active": true,
+			"registration_requested": false,
+			"registered": true,
+			"triggers": [],
+			"forwarding_rules": []
+		}
+	]
+}

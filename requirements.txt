@@ -1,0 +1,6 @@
+pyrogram
+python-dotenv
+tgcrypto
+pycryptodomex
+Pillow
+python-magic
